@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.main-menu {
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-menu a {
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-menu li a:hover {
+    background-color: rgb(76, 151, 105);
+    cursor: pointer;
+    color: white;
+}
+
+#pomoc-btn {
+    background-color: aquamarine;
+}
+
+#pomoc-btn:hover {
+    background-color: wheat;
+}
+
+.firstdiv {
+    background: rgba(0, 0, 0, 0.5) url(img/background3.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dugmici {
+    padding-top: 15%;
+    text-align: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podnaslov {
+    color: white;
+}
+
+button {
+    margin-top: 30px;
+    padding: 20px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(61, 58, 58, 0.4);
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button2 {
+    cursor: pointer;
+}
+
+.button:hover {
+    
+    color: #000;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(73, 73, 73);
+
+}
+
+.footer-content {
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 30px;
 }
