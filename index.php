@@ -2,8 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Volontiraj</title>
+    <?php include 'head.php' ?>
 </head>
 
 <body>
