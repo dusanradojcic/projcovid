@@ -26,31 +26,27 @@
     <div class="forma-div">
         <div class="forma-sub">
             <form>
-                <div class="red">
-                    <input type="text" placeholder="Ime">
-                    <input type="text" placeholder="Prezime">
+                <div id="error">
+                    
                 </div>
                 <div class="red">
-                    <input type="text" placeholder="JMBG">
-                    <input type="text" placeholder="Broj licne karte">
+                    <input type="text" placeholder="Ime" id="ime">
+                    <input type="text" placeholder="Prezime" id="prezime">
                 </div>
                 <div class="red">
-                    <input type="button" value="POSALJI" id="send-btn">
+                    <input type="text" placeholder="JMBG" id="jmbg">
+                    <input type="text" placeholder="Broj licne karte" id="brlk">
+                </div>
+                <div class="red">
+                    <input type="button" value="POSALJI" id="send-btn" onclick="submitForm()">
                 </div>
             </form>
+
         </div>
 
     </div>
 
-    <div class="footer">
-        <div class="footer-content">
-            <p>Kontakt: volontiraj@gmail.com</p>
-            <p style="margin-top: 20px;">Ovo je sajt za povezivanje volontera sa sugradjanima kojima je neophodna bilo
-                koja vrsta pomoci u ovim teskim
-                trenucima. Ne snosimo nikakvu odgovornost u slucaju bilo kakvih problema.</p>
-        </div>
-
-    </div>
+    <?php include 'footer.php' ?>
 </body>
 
 </html>
